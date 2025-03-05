@@ -54,5 +54,6 @@ const ControlInputs: React.FC<ControlInputsProps> = memo(({ cols, setCols, rows,
         </div>
     );
 });
+ControlInputs.displayName = "ControlInputs";
 
 export default ControlInputs;

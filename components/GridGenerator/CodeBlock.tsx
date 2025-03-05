@@ -50,4 +50,6 @@ const CodeBlock: React.FC<CodeBlockProps> = memo(({ title, type, cols, rows, mar
   );
 });
 
+CodeBlock.displayName = "CodeBlock";
+
 export default CodeBlock;

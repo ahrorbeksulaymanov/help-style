@@ -72,7 +72,7 @@ const GridEditor: React.FC = () => {
                         isBounded={true}
                         compactType={null}
                     >
-                        {layout.map((item, index) => (
+                        {layout.map((item) => (
                             <div
                                 key={item.i}
                                 data-grid={item}

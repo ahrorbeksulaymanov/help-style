@@ -60,7 +60,6 @@ export default async function RootLayout({
         <Providers>
           <Header />
             {children}
-          {/* <Footer /> */}
         </Providers>
       </body>
     </html>
