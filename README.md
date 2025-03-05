@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CSS Grid Layout Builder
 
-## Getting Started
+The CSS Grid Layout Builder is an interactive tool built with **Next.js** to help developers and designers quickly and efficiently create custom grid layouts. This tool allows for flexible and intuitive grid customization without the need for manual coding.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Customize Columns, Rows, and Gaps** – Adjust the number of columns, rows, and spacing (gap) to structure your grid.
+- **Add New Elements** – Click on an empty grid cell (+ button) to insert a new item into the layout.
+- **Resize Elements** – Use the resizable handle at the bottom-right corner to adjust the size of each grid item.
+- **Drag and Drop to Reposition** – Move elements freely across the grid by dragging and dropping them into place.
+- **Copy the Generated Code** – Once satisfied, copy the auto-generated HTML and CSS code and paste it into your project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Use
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Select Columns and Rows** – Define the grid structure by specifying the number of columns and rows.
+2. **Add Elements** – Click on the (+) button in an empty cell to insert a new grid item.
+3. **Adjust Size and Position** – Resize elements by dragging their bottom-right corners and reposition them freely.
+4. **Copy and Use the Code** – Once your layout is ready, copy the generated HTML and CSS for use in your project.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation and Running Locally
 
-## Learn More
+To run this Next.js project locally:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/ahrorbeksulaymanov/help-style.git
+   cd help-style
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the development server:**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Deploy on Vercel
+4. **Open the application:**
+   - Go to `http://localhost:3000` in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you'd like to contribute:
+
+1. Fork the repository and add new features.
+2. Submit a pull request.
+3. Discuss and propose improvements.
+
+---
+
+This project simplifies working with CSS Grid layouts in an intuitive way using **Next.js**. Feel free to reach out with any questions!
+
