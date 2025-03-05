@@ -13,8 +13,6 @@ interface CoreGridProps {
 
 const CoreGrid: React.FC<CoreGridProps> = memo(({ cols, rows, margin, staticLayout, addItemToLayout, itemHeight }) => {
 
-    const [focusedIndex, setFocusedIndex] = useState<number | null>(null);
-
     const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>, index: number) => {
         if (e.key === "Enter") {
             addItemToLayout(staticLayout[index].i);
@@ -32,7 +30,6 @@ const CoreGrid: React.FC<CoreGridProps> = memo(({ cols, rows, margin, staticLayo
             newIndex = (index - cols) >= 0 ? index - cols : index; // Tepaga yurish
         }
 
-        setFocusedIndex(newIndex);
         document.getElementById(`grid-item-${staticLayout[newIndex].i}`)?.focus();
     };
 

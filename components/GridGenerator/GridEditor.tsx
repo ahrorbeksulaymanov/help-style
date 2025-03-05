@@ -7,7 +7,6 @@ import ControlInputs from "./ControlInputs";
 import CodeBlock from "./CodeBlock";
 import { generateFullGrid } from "./functions";
 import CoreGrid from "./CoreGrid";
-import ResetButton from "../ResetButton";
 import { useElementSize } from "@/hooks/useEmementSize";
 import { IoMdClose } from "react-icons/io";
 
