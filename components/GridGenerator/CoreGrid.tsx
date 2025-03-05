@@ -62,4 +62,7 @@ const CoreGrid: React.FC<CoreGridProps> = memo(({ cols, rows, margin, staticLayo
         </div>
     )
 });
+
+CoreGrid.displayName = "CoreGrid"; // 🔹 Ushbu qatorni qo'shish kifoya
+
 export default CoreGrid;
