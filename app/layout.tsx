@@ -42,6 +42,9 @@ export const metadata: Metadata = {
     description: "An interactive tool to create custom CSS Grid layouts effortlessly.",
     images: ["https://help-style.vercel.app/file.svg"],
   },
+  other: {
+    "google-site-verification": "IuWjOM1t-1_66e1VXGdiH1wI5BzW6Ebm4P33VBWTbB0",
+  },
 };
 
 

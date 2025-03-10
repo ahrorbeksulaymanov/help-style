@@ -31,8 +31,12 @@ const ControlInputs: React.FC<ControlInputsProps> = memo(({ cols, setCols, rows,
     ];
 
     const handleReset = useCallback(() => {
+        setCols(5);
+        setRows(6);
+        setMargin(8);
+        setitemHeight(60);
         setLayout([{ i: "1", x: 0, y: 0, w: 1, h: 1, isResizable: true }]);
-    }, [setLayout]);
+    }, [setLayout, setCols, setRows, setMargin, setitemHeight]);
 
     return (
         <div className="flex gap-4 mb-4 items-end">
